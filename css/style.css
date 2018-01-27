@@ -934,6 +934,9 @@ si-border {
 .si-colored-skype, .si-skype:hover {
   background-color: #00AFF0 !important; }
 
+.si-colored-whatsapp, .si-whatsapp:hover {
+  background-color: #25d366 !important; }
+
 .si-linkedin:hover, .si-colored-linkedin {
   background-color: #0E76A8 !important; }
 
