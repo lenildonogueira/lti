@@ -3478,16 +3478,6 @@ Assan intro page style
   background-color: #69b0c8 !important;
   margin: 0px auto;
 }
-/*.servicos:after {*/
-/*content: "";*/
-/*height: calc(100% + 4px);*/
-/*width: calc(100% + 4px);*/
-/*background: transparent;*/
-/*display: block;*/
-/*border: 3px solid #FFF;*/
-/*margin: -2px;*/
-/*}*/
-
 
 .borda-fundo-pag{
   width: calc(50% + 30px);
@@ -3905,21 +3895,6 @@ Template responsive style
   nav.navbar{ padding: 5px 0; }
   nav.navbar .navbar-brand .logo{ height: 32px; }
 
-  .pt60,
-  .pt145,
-  .pt130,
-  .pt255,
-  .pt90,
-  .pt185{
-    padding-top: 35px !important;
-  }
-  .pb365{
-    padding-bottom: 60px !important;
-  }
-  .mb40{
-    margin-bottom: 10px !important;
-  }
-
   .parceiros .btn-orange {
     margin: 40px auto 0px auto;
   }
@@ -3957,7 +3932,9 @@ Template responsive style
     width: 320px;
     margin: 0 auto;
   }
-  .footer .endereco{ text-align: center; }
+  .footer .endereco{
+    text-align: center;
+  }
   .footer .social-area{
     width: 220px;
     margin: 0 auto;
@@ -3965,7 +3942,6 @@ Template responsive style
   .footer .logo-footer{
     max-width: 100px;
   }
-
 
   .nav-item{
     overflow: hidden;
