@@ -3583,7 +3583,7 @@ Assan intro page style
     display: none
 }
 
-.parceiros h3{
+.parceiros-area h3{
   letter-spacing: 0.03em;
   color: #f26746;
 }
@@ -3610,7 +3610,7 @@ Assan intro page style
   background-color: #f26949 !important;
 }
 
-.parceiros .marca {
+.parceiros-area .marca {
   background-image: url(../images/marcas.png);
   background-size: 640px;
   background-repeat: no-repeat;
@@ -3620,29 +3620,29 @@ Assan intro page style
   opacity: .6;
   transition: .5s -webkit-filter, .5s filter, .5s opacity;
 }
-.parceiros .marca:hover {
+.parceiros-area .marca:hover {
   -webkit-filter: none;
   filter: none;
   opacity: 1;
 }
-.parceiros .marca.florarte { background-position: -160px -159px; width: 155px; height: 47px; }
-.parceiros .marca.instituto-alianca { background-position: -22px -310px; width: 180px; height: 80px; background-size: 960px; }
-.parceiros .marca.itatiaia { background-position: -15px -144px; width: 115px; height: 70px; background-size: 704px; }
-.parceiros .marca.biotech { background-position: -143px -213px; width: 203px;  height: 48px; }
-.parceiros .marca.instituto-hsbc { background-position: -277px -80px; width: 93px; height: 110px; background-size: 500px; }
-.parceiros .marca.chevron { background-position: -428px -114px; width: 138px; height: 115px; background-size: 570px; }
-.parceiros .marca.tv-replay { background-position: -445px -10px; width: 150px; height: 110px; background-size: 840px; }
-.parceiros .marca.ivete { background-position: -659px -3px; width: 55px; height: 145px; background-size: 800px; }
-.parceiros .marca.afc { background-position: -5px -10px; width: 170px; height: 62px; background-size: 680px; }
-.parceiros .marca.walmart { background-position: -247px -136px; width: 155px; height: 60px; background-size: 840px; }
-.parceiros .marca.rio-ave { background-position: -127px -2px; width: 119px; height: 72px; background-size: 470px; }
-.parceiros .marca.itacari { background-position: -6px -72px; width: 142px; height: 42px; background-size: 582px; }
+.parceiros-area .marca.florarte { background-position: -160px -159px; width: 155px; height: 47px; }
+.parceiros-area .marca.instituto-alianca { background-position: -22px -310px; width: 180px; height: 80px; background-size: 960px; }
+.parceiros-area .marca.itatiaia { background-position: -15px -144px; width: 115px; height: 70px; background-size: 704px; }
+.parceiros-area .marca.biotech { background-position: -143px -213px; width: 203px;  height: 48px; }
+.parceiros-area .marca.instituto-hsbc { background-position: -277px -80px; width: 93px; height: 110px; background-size: 500px; }
+.parceiros-area .marca.chevron { background-position: -428px -114px; width: 138px; height: 115px; background-size: 570px; }
+.parceiros-area .marca.tv-replay { background-position: -445px -10px; width: 150px; height: 110px; background-size: 840px; }
+.parceiros-area .marca.ivete { background-position: -659px -3px; width: 55px; height: 145px; background-size: 800px; }
+.parceiros-area .marca.afc { background-position: -5px -10px; width: 170px; height: 62px; background-size: 680px; }
+.parceiros-area .marca.walmart { background-position: -247px -136px; width: 155px; height: 60px; background-size: 840px; }
+.parceiros-area .marca.rio-ave { background-position: -127px -2px; width: 119px; height: 72px; background-size: 470px; }
+.parceiros-area .marca.itacari { background-position: -6px -72px; width: 142px; height: 42px; background-size: 582px; }
 
-.parceiros > .row > div{
+.parceiros-area > .row > div{
   display: flex;
 }
 
-.parceiros .outline-orange{margin: 30px auto 155px auto;}
+.parceiros-area .outline-orange{margin: 30px auto 30px auto;}
 
 .depoimento {
     max-width: 100%;
@@ -3668,7 +3668,7 @@ Assan intro page style
   position: relative;
 }
 .depoimento .item .img-area:before{
-  content: "â€œ";
+  content: "“";
   font-size: 140px;
   font-family: Impact;
   color: #f26746;
@@ -3707,38 +3707,6 @@ Assan intro page style
     text-align: center;
     max-height: 500px;
     overflow-y: auto;
-}
-
-.consultoria{
-    background: #3f535f;
-    position: relative;
-    background-image: url(../images/consultoria-img.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 860px;
-    color: #b4bcc1;
-}@media (max-width: 1240px){ .consultoria{ background-image: none; } .consultoria .text-area { max-height: 150px;}}
-.consultoria .seta{
-    border: 45px solid transparent;
-    border-top-color: #FFF;
-    width: 90px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -45px;
-}
-.consultoria h3{
-    text-align: left;
-    letter-spacing: .02em;
-    color: #fff;
-}
-.consultoria .text-area{
-    height: 280px;
-    overflow-y: overlay;
-}
-.consultoria .text-area p{ line-height: 30px; }
-.consultoria .icon-area img:not(:last-of-type){
-    margin-right: 75px;
 }
 
 .image-quadro{
@@ -3895,14 +3863,8 @@ Template responsive style
   nav.navbar{ padding: 5px 0; }
   nav.navbar .navbar-brand .logo{ height: 32px; }
 
-  .parceiros .btn-orange {
+  .parceiros-area .btn-orange {
     margin: 40px auto 0px auto;
-  }
-  .consultoria .text-area {
-    max-height: 280px;
-  }
-  .consultoria{
-    min-height: 400px;
   }
   .image-quadro.seta:after{
     display: none;
@@ -4004,7 +3966,7 @@ Template responsive style
     margin: 0 !important;
     padding: 0 !important;
   }
-  .parceiros .marca {
+  .parceiros-area .marca {
     -webkit-filter: none;
     opacity: 1;
   }
