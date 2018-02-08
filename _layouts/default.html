@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>LTI</title>
+    <title>{{page.title}}</title>
     <link rel="shortcut icon" href="favicon.ico">
     <!-- Plugins CSS -->
     <link href="/css/plugins.css" rel="stylesheet">
@@ -43,17 +43,22 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html">
-            <img class='logo logo-dark' src="images/marca_lti.png" alt="">
-            <img class='logo logo-light hidden-md-down' src="images/marca_lti.png" alt="">
+        <a class="navbar-brand" href="/">
+            <img class='logo logo-dark' src="/images/marca_lti.png" alt="">
+            <img class='logo logo-light hidden-md-down' src="/images/marca_lti.png" alt="">
         </a>
         <div  id="navbarNavDropdown" class="navbar-collapse collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a href="/" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="/produtos" class="nav-link">Produtos</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">Produtos</a>
+                    <ul class="dropdown-menu dropdown-menu-right show">
+                        <li><a href="/sisgr-sistema-para-gerenciadoras-de-residuos" class="dropdown-item">SISGR</a></li>
+                        <li><a href="/gete-gestao-para-estacao-de-tratamento-de-efluentes" class="dropdown-item">GETE</a></li>
+                        <li><a href="/livro-de-ponto" class="dropdown-item">Livro de Ponto</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a href="/carreiras" class="nav-link">Carreiras</a>
@@ -95,7 +100,7 @@
             <div class="col-lg-4 col-md-6 pt60 mb40 endereco">
                 <h3>Endereço</h3>
                 <p>Rua do Estudante, Número 01<br/>Bairro Universitário<br/>Vitória de Santo Antão, Pernambuco</p>
-                <img class="logo-footer" src="images/marca_lti.png">
+                <img class="logo-footer" src="/images/marca_lti.png">
             </div>
         </div>
     </div>
